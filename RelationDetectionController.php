@@ -77,7 +77,7 @@ class RelationDetectionController extends Controller
     }
 
 
-    public function start_hamada(Request $request) {
+    public function startEngine(Request $request) {
    
         $first_point = $request->entity;
         $second_point = $request->colomn;
